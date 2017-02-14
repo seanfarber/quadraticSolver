@@ -10,7 +10,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.text.DecimalFormat;
 
-public class HwC21203Quadratic2 extends JFrame {
+public class QuadraticSolver extends JFrame {
 
 	private JPanel panel1;		// display quadratic formula
 	private JPanel panel2;		// for coefficient 1
@@ -39,7 +39,7 @@ public class HwC21203Quadratic2 extends JFrame {
 	 * Constructor
 	 */
 	
-	public HwC21203Quadratic2() {
+	public QuadraticSolver() {
 		
 		// Set window title
 		setTitle("Find the roots");
@@ -197,7 +197,7 @@ public class HwC21203Quadratic2 extends JFrame {
 	
 	public static void main(String[] args) {
 		
-		new HwC21203Quadratic2();
+		new QuadraticSolver();
 	}
 	
 }
